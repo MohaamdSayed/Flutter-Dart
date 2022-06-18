@@ -14,7 +14,5 @@
       };
     }
 
-    Color newcolor = Color(color);
-    print(Color.fromRGBO(newcolor.red, newcolor.green, newcolor.blue, 0.6));
     return MaterialColor(color, createMap(Color(color)));
   }
